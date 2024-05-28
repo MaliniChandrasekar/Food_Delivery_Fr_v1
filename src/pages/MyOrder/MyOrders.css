@@ -1,0 +1,45 @@
+.my-orders{
+    margin-top: 30px;
+}
+
+.my-orders .first{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-orders-order{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 14px;
+    border: 1px solid #5d5d5d;
+    margin-top: 40px;
+}
+
+.my-orders-order img{
+    width: 45px;
+}
+
+.my-orders-order p{
+    color: #5d5d5d;
+    font-size: 14px;
+  
+}
+
+.my-orders-order .dot{
+    color: red;
+}
+
+.my-orders-order .font{
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.my-orders button{
+    padding: 15px;
+    background-color: #ffdfba;
+    border: 1px solid #ffdfba;
+    width: 150px;
+}
